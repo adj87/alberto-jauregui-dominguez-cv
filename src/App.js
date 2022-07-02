@@ -1,4 +1,5 @@
 import "./App.css";
+import { Mongo, ReactIcon, Node } from "./icons";
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
       <div className="lg:text-5xl text-4xl flex flex-col m-auto w-full items-center justify-between h-18 text-white mt-16">
         <span className="blue-gradient">Full Stack</span>
         <span className="blue-gradient text-center">Web Developer</span>
+      </div>
+      <div className="lg:text-5xl text-4xl flex flex-row m-auto w-full items-center justify-between h-18 text-white mt-16">
+        <Mongo />
+        <span>E</span>
+        <ReactIcon />
+        <Node />
       </div>
     </div>
   );
