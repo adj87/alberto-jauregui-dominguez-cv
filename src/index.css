@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Inter ExtraBold";
+  src: local("Inter-ExtraBold"),
+    url(./fonts/Inter/Inter-ExtraBold.ttf) format("truetype");
+}
+
+body {
+  letter-spacing: -2.5px;
+  font-family: "Inter ExtraBold";
+  color: white;
+  background-color: black;
+}
+
+.blue-gradient {
+  background-image: linear-gradient(
+    rgb(94, 162, 239) 25%,
+    rgb(0, 114, 245) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
