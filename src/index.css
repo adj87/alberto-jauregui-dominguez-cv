@@ -8,11 +8,21 @@
     url(./fonts/Inter/Inter-ExtraBold.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Inter Regular";
+  src: local("Inter-Regular"),
+    url(./fonts/Inter/Inter-Regular.ttf) format("truetype");
+}
+
 body {
   letter-spacing: -2.5px;
-  font-family: "Inter ExtraBold";
+  font-family: "Inter Regular";
   color: white;
   background-color: black;
+}
+
+.extra-bold {
+  font-family: "Inter ExtraBold";
 }
 
 .blue-gradient {
