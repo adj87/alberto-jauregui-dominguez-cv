@@ -1,4 +1,6 @@
+import Name from "../components/Name";
 import { ProfilePicture } from "../components/ProfilePicture";
+import Role from "../components/Role";
 import { Mongo, ReactIcon, Node } from "../icons";
 
 export const Initial = () => (
@@ -7,14 +9,11 @@ export const Initial = () => (
       <ProfilePicture />
     </div>
 
-    <div className="lg:text-6xl text-5xl flex flex-col m-auto w-full items-center justify-between text-white extra-bold">
-      <span>Alberto </span>
-      <span>Jauregui </span>
-      <span>Domínguez </span>
+    <div className="lg:text-5xl text-4xl flex flex-col m-auto w-full items-center justify-between">
+      <Name className="text-center one-word" />
     </div>
-    <div className="lg:text-5xl text-4xl flex flex-col m-auto w-full items-center justify-between h-18 text-white extra-bold">
-      <span className="blue-gradient">Full Stack</span>
-      <span className="blue-gradient text-center">Web Developer</span>
+    <div className="lg:text-4xl text-3xl flex flex-col w-22 items-center justify-between h-18 text-center">
+      <Role />
     </div>
     <div className="text-2xl flex flex-row m-auto  w-full items-start justify-around h-18 text-white ">
       <div className="items-center justify-center">

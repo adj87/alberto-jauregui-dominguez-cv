@@ -33,3 +33,7 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.one-word {
+  word-spacing: 9999999px;
+}
