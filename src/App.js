@@ -1,10 +1,11 @@
 import "./App.css";
-import { Initial } from "./pages/Initial";
+import { Initial, Education } from "./pages";
 
 function App() {
   return (
     <div>
       <Initial />
+      <Education />
     </div>
   );
 }
