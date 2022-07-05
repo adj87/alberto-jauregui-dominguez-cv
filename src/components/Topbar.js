@@ -1,8 +1,8 @@
 import React from "react";
-import Langs from "../../components/Langs";
-import Name from "../../components/Name";
-import { ProfilePicture } from "../../components/ProfilePicture";
-import Role from "../../components/Role";
+import Langs from "./Langs";
+import Name from "./Name";
+import { ProfilePicture } from "./ProfilePicture";
+import Role from "./Role";
 
 export const TopBar = () => {
   return (

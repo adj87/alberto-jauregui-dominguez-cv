@@ -1,6 +1,6 @@
 import "./App.css";
 import { Initial, Education } from "./pages";
-import { TopBar } from "./pages/Education/Topbar";
+import { TopBar } from "./components/Topbar";
 
 function App() {
   return (
