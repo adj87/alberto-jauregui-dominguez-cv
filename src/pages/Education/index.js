@@ -1,5 +1,13 @@
 import React from "react";
+import Title from "../../components/Title";
+import Layout from "../Layout";
 
 export const Education = () => {
-  return <div className="h-screen bg-gray-900"></div>;
+  return (
+    <div className="h-screen">
+      <Layout>
+        <Title text={"adsadadadsasds"} />
+      </Layout>
+    </div>
+  );
 };
