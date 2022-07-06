@@ -2,11 +2,11 @@ import React from "react";
 import Title from "../../components/Title";
 import Layout from "../Layout";
 
-export const Education = () => {
+export const Experience = () => {
   return (
     <div className="h-screen">
       <Layout>
-        <Title text={"Education"} className="orange-gradient" />
+        <Title text={"Experience"} className="pink-gradient" />
       </Layout>
     </div>
   );

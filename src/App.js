@@ -1,5 +1,5 @@
 import "./App.css";
-import { Initial, Education } from "./pages";
+import { Initial, Education, Experience } from "./pages";
 import { TopBar } from "./components/Topbar";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <Initial />
       <TopBar />
       <Education />
-      <Education />
+      <Experience />
     </div>
   );
 }

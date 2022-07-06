@@ -9,7 +9,7 @@ const Langs = () => {
       {langs.map((el) => (
         <span
           className={`md:ml-4 ml-3 cursor-pointer ${
-            el === lang ? "text-white extra-bold" : "text-gray-600"
+            el === lang ? "text-white bold" : "text-gray-600"
           }`}
           onClick={() => setLang(el)}
         >

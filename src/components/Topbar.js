@@ -13,11 +13,11 @@ export const TopBar = () => {
         </div>
 
         <div className="ml-4">
-          <Name className="text-2xl hidden md:block" />
+          <Name className="text-2xl hidden md:block bold" />
         </div>
       </div>
       <div className="flex items-center">
-        <Role className="md:text-2xl text-xl" />
+        <Role className="md:text-2xl text-xl bold" />
         <Langs />
       </div>
     </div>
