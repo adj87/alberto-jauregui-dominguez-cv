@@ -3,11 +3,16 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  /*   safelist: [
+    {
+      pattern: /./
+    }
+  ], */
   theme: {
     extend: {
       colors: {
         black: "#000",
-        white: "#fff",
+        white: colors.white,
         gray: colors.gray
       },
       spacing: {
