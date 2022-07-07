@@ -12,7 +12,7 @@ export const Initial = () => (
     <div className="lg:text-5xl text-4xl flex flex-col m-auto w-full items-center justify-between">
       <Name className="text-center one-word" />
     </div>
-    <div className="lg:text-4xl text-3xl flex flex-col w-22 items-center justify-between h-18 text-center">
+    <div className="lg:text-4xl text-3xl flex flex-col w-full items-center justify-between h-18 text-center">
       <Role />
     </div>
     <div className="text-2xl flex flex-row m-auto  w-full items-start justify-around h-18 text-white ">
