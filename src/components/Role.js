@@ -1,13 +1,9 @@
 export const Role = ({ className }) => (
   <>
-    <span
-      className={`blue-gradient tracking-tighter extra-bold ${className ?? ""}`}
-    >
+    <span className={`tracking-tighter text-gray-400 ${className ?? ""}`}>
       Full Stack
     </span>
-    <span
-      className={`blue-gradient tracking-tighter extra-bold ${className ?? ""}`}
-    >
+    <span className={`tracking-tighter extra-bold ${className ?? ""}`}>
       Web Developer
     </span>
   </>

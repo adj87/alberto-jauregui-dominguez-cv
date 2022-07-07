@@ -8,11 +8,11 @@ export const Education = () => {
       <Layout>
         <Title text={"Education"} className="orange-gradient" />
         <section>
-          <p className="mt-4 text-3xl bold tracking-tighter">
+          <p className="mt-4 md:text-3xl text-2xl bold tracking-tighter">
             KeepCoding Web Startup Engineering Bootcamp
           </p>
 
-          <div className="mt-4 text-gray-400">
+          <div className="mt-12 text-gray-400">
             <p>Git, GitHub & SourceTree </p>
             <p>Fundamentos de Frontend: HTML5, CSS3 y JavaScript </p>
             <p>Frontend Avanzado: Ajax, Grunt/Gulp, SASS, RWD </p>
