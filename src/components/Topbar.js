@@ -6,7 +6,7 @@ import Role from "./Role";
 
 export const TopBar = () => {
   return (
-    <div className="flex flex-row w-full justify-between py-2 px-4 sticky top-0 shadow-lg shadow-white">
+    <div className="flex flex-row w-full justify-between py-2 px-4 sticky top-0 shadow-lg shadow-white main-bg">
       <div className="flex items-center">
         <div className="w-12">
           <ProfilePicture />
