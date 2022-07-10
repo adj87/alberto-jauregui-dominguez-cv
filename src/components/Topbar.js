@@ -6,24 +6,24 @@ import Role from "./Role";
 
 export const TopBar = () => {
   const externalRef = useRef();
-  const { isNearScreen, fromRef } = useNearScreen({
+  const { isNearScreen } = useNearScreen({
     externalRef,
     once: false,
     distance: "0px"
   });
 
-  console.log(isNearScreen, fromRef);
+  const isTopBarShown = !isNearScreen;
+  const className = isTopBarShown ? "opacity-1" : "opacity-0";
 
   return (
     <>
       <div
         className="ref"
         ref={externalRef}
-        // className="bg-white p-8 w-full"
+        style={{ marginTop: "-250px", position: "absolute" }}
       ></div>
       <div
-        className="flex flex-row w-full justify-between py-2 px-4 sticky top-0 shadow-lg shadow-white main-bg"
-        style={{ display: !isNearScreen ? "flex" : "none" }}
+        className={`flex flex-row w-full justify-between py-2 px-4 sticky top-0 shadow-lg shadow-white main-bg transition-all duration-1000 ${className} `}
       >
         <div className="flex items-center">
           <div className="w-12">
@@ -31,7 +31,7 @@ export const TopBar = () => {
           </div>
         </div>
         <div className="flex items-center">
-          <Role className="md:text-2xl text-xl" />
+          <Role className="xxl:text-2xl text-xl" />
           <Langs />
         </div>
       </div>
