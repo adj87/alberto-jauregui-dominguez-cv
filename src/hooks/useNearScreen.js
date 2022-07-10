@@ -13,25 +13,19 @@ export default function useNearScreen({
 
     const onChange = (entries, observer) => {
       const el = entries[0];
-      console.log(el);
       if (el.isIntersecting) {
-        console.log("entra if");
         setShow(true);
+        once && observer.disconnect();
       } else {
-        console.log("entra else");
-        setShow(false);
+        !once && setShow(false);
       }
     };
 
     let observer = new IntersectionObserver(onChange, {
-      rootMargin: distance,
-      threshold: 1
+      rootMargin: distance
     });
 
-    if (element) {
-      console.log("eyyyyy");
-      observer.observe(element);
-    }
+    if (element) observer.observe(element);
 
     return () => observer && observer.disconnect();
   });
