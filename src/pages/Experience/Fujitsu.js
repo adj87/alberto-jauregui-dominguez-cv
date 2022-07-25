@@ -6,7 +6,7 @@ const paragraphs = [
   "Development of API REST with SpringBoot with JAVA.",
   "Development of react-native applications using apolloclient as manager state",
   "Maintenance of old frontend applications with jQuery and vanillaJS",
-  "Use of dockers to deploy API REST"
+  "Use of dockers to deploy API RESTS"
 ];
 
 const Fujitsu = () => {

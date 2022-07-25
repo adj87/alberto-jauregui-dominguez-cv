@@ -3,6 +3,7 @@ import Title from "../../components/Title";
 import Layout from "../Layout";
 import Wellness from "./Wellness";
 import Fujitsu from "./Fujitsu";
+import Freelance from "./Freelance";
 
 export const Experience = () => {
   return (
@@ -12,6 +13,7 @@ export const Experience = () => {
         <section className="flex w-full overflow-auto snap-x snap-mandatory">
           <Wellness />
           <Fujitsu />
+          <Freelance />
         </section>
       </Layout>
     </div>
