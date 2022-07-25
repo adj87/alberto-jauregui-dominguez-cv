@@ -22,11 +22,11 @@
 body {
   font-family: "Inter Regular";
   color: white;
-  background-color: #000825;
+  @apply bg-main-bg;
 }
 
 .main-bg {
-  background-color: #000825;
+  @apply bg-main-bg;
 }
 
 .extra-bold {
@@ -66,4 +66,21 @@ body {
 
 .one-word {
   word-spacing: 9999999px;
+}
+
+.header-education,
+.header-experience {
+  @apply mt-6;
+  @apply text-2xl;
+  @apply md:text-4xl;
+  @apply bold;
+  @apply tracking-tighter;
+}
+
+.sub-header-education,
+.sub-header-experience {
+  @apply text-xl;
+  @apply md:text-2xl;
+  @apply bold;
+  @apply tracking-tighter;
 }

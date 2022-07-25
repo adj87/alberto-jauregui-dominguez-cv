@@ -6,7 +6,7 @@ import Layout from "./Layout";
 
 export const Initial = () => (
   <Layout>
-    <div className="flex flex-col items-center justify-between w-96 m-auto pt-14 h-screen">
+    <div className="flex flex-col items-center justify-between md:w-96 m-auto pt-14 h-screen">
       <div className="w-48 shadow-white-500/50">
         <ProfilePicture />
       </div>

@@ -13,7 +13,8 @@ module.exports = {
       colors: {
         black: "#000",
         white: colors.white,
-        gray: colors.gray
+        gray: colors.gray,
+        "main-bg": "#000825"
       },
       spacing: {
         22: "3rem",

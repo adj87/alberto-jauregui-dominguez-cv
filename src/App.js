@@ -4,13 +4,13 @@ import { TopBar } from "./components/Topbar";
 
 function App() {
   return (
-    <div>
+    <>
       <Initial />
       <TopBar />
       <Education />
       <Experience />
       <Experience />
-    </div>
+    </>
   );
 }
 
