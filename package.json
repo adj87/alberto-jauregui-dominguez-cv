@@ -1,5 +1,6 @@
 {
-  "name": "cv",
+  "homepage": "http://adj87.github.io/alberto-jauregui-dominguez-cv",
+  "name": "alberto-jauregui-dominguez-cv.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
