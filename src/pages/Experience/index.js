@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../../components/Title";
 import Layout from "../Layout";
-import Fujitsu from "./Fujitsu";
+import Wellness from "./Wellness";
 
 export const Experience = () => {
   return (
@@ -9,7 +9,7 @@ export const Experience = () => {
       <Layout>
         <Title text={"Experience"} className="pink-gradient" />
         <section className="flex w-full overflow-auto snap-x snap-mandatory">
-          <Fujitsu />
+          <Wellness />
         </section>
       </Layout>
     </div>

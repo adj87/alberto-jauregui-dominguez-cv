@@ -72,7 +72,7 @@ body {
 .header-experience {
   @apply mt-6;
   @apply text-2xl;
-  @apply md:text-4xl;
+  @apply md:text-3xl;
   @apply bold;
   @apply tracking-tighter;
 }
