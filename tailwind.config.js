@@ -16,6 +16,9 @@ module.exports = {
         gray: colors.gray,
         "main-bg": "#000825"
       },
+      screens: {
+        xs: "425px" // min-width
+      },
       spacing: {
         22: "3rem",
         34: "6rem",
