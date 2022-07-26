@@ -1,5 +1,5 @@
 import "./App.css";
-import { Initial, Education, Experience } from "./pages";
+import { Initial, Education, Experience, Portfolio } from "./pages";
 import { TopBar } from "./components/Topbar";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <TopBar />
       <Education />
       <Experience />
+      <Portfolio />
     </>
   );
 }

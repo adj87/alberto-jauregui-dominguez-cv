@@ -64,6 +64,15 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.green-gradient {
+  background-image: linear-gradient(
+    rgb(111, 238, 141) 25%,
+    rgb(23, 201, 100) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .one-word {
   word-spacing: 9999999px;
 }
