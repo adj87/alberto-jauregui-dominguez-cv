@@ -1,4 +1,5 @@
 import React from "react";
+import List from "../../components/List";
 
 const assignatures = [
   "Git, GitHub & SourceTree ",
@@ -30,11 +31,7 @@ const Bootcamp = () => {
         KeepCoding Web Startup Engineering Bootcamp
       </p>
 
-      <div className="mt-12 text-gray-400">
-        {assignatures.map((el) => (
-          <p className="mt-2">{el}</p>
-        ))}
-      </div>
+      <List options={assignatures} />
     </div>
   );
 };

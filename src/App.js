@@ -9,7 +9,6 @@ function App() {
       <TopBar />
       <Education />
       <Experience />
-      <Experience />
     </>
   );
 }

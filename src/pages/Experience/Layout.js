@@ -1,3 +1,5 @@
+import List from "../../components/List";
+
 const Layout = (props) => {
   const { company, rol, date, paragraphs } = props;
   return (
@@ -9,13 +11,7 @@ const Layout = (props) => {
         <h2 className="text-xl md:text-2xl tracking-tighter">{rol}</h2>
         <span className="md:text-lg text-sm">{date}</span>
       </div>
-      <ul className="list-disc list-inside mt-8 md:mt-14 md:ml-4">
-        {paragraphs.map((par) => {
-          return (
-            <li className="my-3 text-lg text-justify text-gray-400">{par}</li>
-          );
-        })}
-      </ul>
+      <List options={paragraphs} />
     </section>
   );
 };

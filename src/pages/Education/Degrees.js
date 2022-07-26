@@ -1,4 +1,5 @@
 import React from "react";
+import List from "../../components/List";
 
 const diplomas = [
   ["Business Diploma", "2005-2010"],
@@ -11,12 +12,16 @@ const Degrees = () => {
       <p className="mt-4 md:text-3xl text-2xl bold tracking-tighter ">
         University Education
       </p>
-      {diplomas.map((el) => (
-        <div className="mt-12 ">
-          <span className="text-gray-400 ">{el[0]}</span>
-          <span className="text-gray-600 ml-4">{el[1]}</span>
-        </div>
-      ))}
+      <List
+        noJustify
+        options={diplomas}
+        render={(el) => (
+          <>
+            <span className="text-gray-400 ">{el[0]}</span>
+            <span className="text-gray-600 ml-4">{el[1]}</span>
+          </>
+        )}
+      />
     </div>
   );
 };

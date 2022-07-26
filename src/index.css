@@ -67,20 +67,13 @@ body {
 .one-word {
   word-spacing: 9999999px;
 }
-
-.header-education,
-.header-experience {
-  @apply mt-6;
-  @apply text-2xl;
-  @apply md:text-3xl;
-  @apply bold;
-  @apply tracking-tighter;
+*::-webkit-scrollbar {
+  width: 0.75rem;
 }
-
-.sub-header-education,
-.sub-header-experience {
-  @apply text-xl;
-  @apply md:text-2xl;
-  @apply bold;
-  @apply tracking-tighter;
+*::-webkit-scrollbar-track {
+  background-color: #edf2f7;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #718096;
+  border-radius: 9999px;
 }

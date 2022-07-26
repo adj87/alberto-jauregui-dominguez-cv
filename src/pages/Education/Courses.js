@@ -1,4 +1,5 @@
 import React from "react";
+import List from "../../components/List";
 
 const courses = [
   [
@@ -28,13 +29,7 @@ const Courses = () => {
         Online Courses
       </p>
 
-      <div className="mt-12 text-gray-400 flex justify-around flex-col">
-        {courses.map((c) => (
-          <a href={c[1]} className="mt-4 hover:text-white transition">
-            {c[0]}
-          </a>
-        ))}
-      </div>
+      <List options={courses} />
     </div>
   );
 };
