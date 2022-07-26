@@ -1,7 +1,6 @@
 import Title from "../../components/Title";
+import { imgPrefix } from "../../utils";
 import Layout from "../Layout";
-
-const imgPrefix = "/alberto-jauregui-dominguez-cv";
 
 const projects = [
   {
@@ -30,11 +29,12 @@ export const Portfolio = () => {
   return (
     <Layout>
       <Title text={"Portfolio"} className="green-gradient" />
+      <h2 className="text-gray-400 text-xl mt-4">Some of my portfolio...</h2>
       <div className="grid grid-cols md:grid-cols-2 gap-x-4 gap-y-8 my-8">
         {projects.map((pr) => (
           <div>
-            <p className="mb-8">{pr.name}</p>
-            <a href={pr.href}>
+            <p className="mb-8 text-md">{pr.name}</p>
+            <a href={pr.href} target="_blank" rel="noreferrer">
               <img
                 src={`${imgPrefix}/${pr.src}`}
                 alt={`project-pr-${pr.name}`}
