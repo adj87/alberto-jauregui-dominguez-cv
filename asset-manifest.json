@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/alberto-jauregui-dominguez-cv/static/css/main.e5219db9.css",
-    "main.js": "/alberto-jauregui-dominguez-cv/static/js/main.0ccfd505.js",
+    "main.css": "/alberto-jauregui-dominguez-cv/static/css/main.d7e64b7e.css",
+    "main.js": "/alberto-jauregui-dominguez-cv/static/js/main.75c161e8.js",
     "static/js/787.cc6a60eb.chunk.js": "/alberto-jauregui-dominguez-cv/static/js/787.cc6a60eb.chunk.js",
     "static/media/Inter-ExtraBold.ttf": "/alberto-jauregui-dominguez-cv/static/media/Inter-ExtraBold.ff90249a320fd94ec508.ttf",
     "static/media/Inter-Bold.ttf": "/alberto-jauregui-dominguez-cv/static/media/Inter-Bold.1eca2d329458b92342aa.ttf",
     "static/media/Inter-Regular.ttf": "/alberto-jauregui-dominguez-cv/static/media/Inter-Regular.a3e5baa244e35d0f891d.ttf",
     "index.html": "/alberto-jauregui-dominguez-cv/index.html",
-    "main.e5219db9.css.map": "/alberto-jauregui-dominguez-cv/static/css/main.e5219db9.css.map",
-    "main.0ccfd505.js.map": "/alberto-jauregui-dominguez-cv/static/js/main.0ccfd505.js.map",
+    "main.d7e64b7e.css.map": "/alberto-jauregui-dominguez-cv/static/css/main.d7e64b7e.css.map",
+    "main.75c161e8.js.map": "/alberto-jauregui-dominguez-cv/static/js/main.75c161e8.js.map",
     "787.cc6a60eb.chunk.js.map": "/alberto-jauregui-dominguez-cv/static/js/787.cc6a60eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5219db9.css",
-    "static/js/main.0ccfd505.js"
+    "static/css/main.d7e64b7e.css",
+    "static/js/main.75c161e8.js"
   ]
 }
