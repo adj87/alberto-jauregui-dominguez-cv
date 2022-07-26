@@ -32,7 +32,7 @@ export const TopBar = () => {
         </div>
         <div className="flex items-center">
           <Role className="xxl:text-2xl text-xl" />
-          <Langs />
+          {/*     <Langs /> */}
         </div>
       </div>
     </>

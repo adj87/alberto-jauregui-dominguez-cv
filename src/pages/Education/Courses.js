@@ -14,12 +14,12 @@ const courses = [
     "Curso BBDD relaciones, SQL & MySQL",
     "https://plataforma.keepcoding.io/courses/251020/certificate"
   ],
-  ["Curso ReactJS ", "https://www.udemy.com/certificate/UC-9LLOIRKD/"],
+  ["ReactJS course", "https://www.udemy.com/certificate/UC-9LLOIRKD/"],
   [
     "The Complete Oracle SQL Certification Course ",
     "https://www.udemy.com/certificate/UC-DF7WVLW4/"
   ],
-  ["Curso Git, GitHub & SourceTree", "a"]
+  ["Git, GitHub & SourceTree course", "a"]
 ];
 
 const Courses = () => {

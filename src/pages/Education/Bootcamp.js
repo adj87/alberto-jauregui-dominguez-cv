@@ -2,25 +2,23 @@ import React from "react";
 import List from "../../components/List";
 
 const assignatures = [
-  "Git, GitHub & SourceTree ",
-  "Fundamentos de Frontend: HTML5, CSS3 y JavaScript ",
-  "Frontend Avanzado: Ajax, Grunt/Gulp, SASS, RWD ",
-  "Backend Avanzado con Node.js DevOps con Node.js ",
+  "Git, GitHub & SourceTree",
+  "Fundamentals of Frontend development: HTML5, CSS3 and JavaScript ",
+  "Advanced Frontend: Ajax, Grunt/Gulp, SASS, RWD ",
+  "Advanced Backend with NodeJS, DevOps with NodeJS ",
   // "Angular",
-  "REACT",
+  "React",
   "Python, Django y REST",
-  "Bases de Datos: PostgreSQL, MongoDB, Redis, ElasticSearch UX + IA",
+  "DataBases: PostgreSQL, MongoDB, Redis, ElasticSearch UX + IA",
   "SEO + Google Analytics + Social Media ",
   "SCRUM & Agile ",
   "Progressive Web Apps",
   "Web Components & Polymer",
-  "ReactJS. ",
   "Electron ",
   "Ionic Framework",
-  "Bases de Datos",
   "Docker",
-  "Fundamentos de Diseño ",
-  "Productividad."
+  "Fundamentals of design",
+  "Productivity"
   //  "Entrepreneurship."
 ];
 
