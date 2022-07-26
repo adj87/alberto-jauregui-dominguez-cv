@@ -23,7 +23,7 @@ export const TopBar = () => {
         style={{ marginTop: "-250px", position: "absolute" }}
       ></div>
       <div
-        className={`flex flex-row w-full justify-between py-2 px-4 sticky top-0 shadow-lg shadow-white main-bg transition-all duration-1000 ${className} `}
+        className={`flex flex-row w-full justify-between py-2 px-4 sticky top-0 shadow-lg shadow-white main-bg transition-all duration-1000 ${className} z-10 `}
       >
         <div className="flex items-center">
           <div className="w-12">
