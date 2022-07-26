@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import useNearScreen from "../hooks/useNearScreen";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, size }) => {
   const externalRef = useRef();
   const { isNearScreen } = useNearScreen({
     externalRef,
@@ -11,9 +11,11 @@ const Layout = ({ children }) => {
   });
 
   const className = isNearScreen ? "opacity-1" : "opacity-20";
+  const sizeClassName =
+    size === "lg" ? "md:max-w-screen-lg" : "md:max-w-screen-md";
   return (
     <div
-      className={`md:max-w-screen-md px-6 md:px-8 m-auto mt-12 transition duration-1000  ${className}`}
+      className={`${sizeClassName} px-6 md:px-8 m-auto mt-12 transition duration-1000  ${className}`}
       ref={externalRef}
     >
       {children}
