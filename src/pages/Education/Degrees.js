@@ -8,7 +8,7 @@ const diplomas = [
 
 const Degrees = () => {
   return (
-    <div className="w-full shrink-0 snap-center">
+    <div className="w-full">
       <p className="mt-4 md:text-3xl text-2xl bold tracking-tighter ">
         University Education
       </p>

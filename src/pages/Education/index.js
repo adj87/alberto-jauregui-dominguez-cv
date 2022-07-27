@@ -8,9 +8,9 @@ import Degrees from "./Degrees";
 
 export const Education = () => {
   return (
-    <Layout>
+    <Layout size="lg">
       <Title text={"Education"} className="orange-gradient" />
-      <section className="flex w-full overflow-auto snap-x snap-mandatory">
+      <section className="flex w-full grid md:grid-rows-2 md:grid-flow-col gap-6">
         <Bootcamp />
         <Courses />
         <Degrees />

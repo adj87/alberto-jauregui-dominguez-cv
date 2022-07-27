@@ -24,7 +24,7 @@ const assignatures = [
 
 const Bootcamp = () => {
   return (
-    <div className="w-full shrink-0 snap-center">
+    <div className="w-full row-span-2">
       <p className="mt-4 md:text-3xl text-2xl bold tracking-tighter">
         KeepCoding Web Startup Engineering Bootcamp
       </p>
