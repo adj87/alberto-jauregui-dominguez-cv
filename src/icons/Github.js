@@ -1,10 +1,10 @@
 import React from "react";
 
-export const Github = ({ width = "50px", height = "50px", color }) => (
+export const Github = ({ size = "50px", color }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={width}
-    height={height}
+    width={size}
+    height={size}
     viewBox="0 0 24 24"
     fill={color ?? "black"}
   >
