@@ -1,6 +1,4 @@
-import React, { useRef } from "react";
 import Title from "../../components/Title";
-import useNearScreen from "../../hooks/useNearScreen";
 import Layout from "../Layout";
 import Bootcamp from "./Bootcamp";
 import Courses from "./Courses";

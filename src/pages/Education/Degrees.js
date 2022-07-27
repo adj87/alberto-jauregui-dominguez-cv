@@ -1,5 +1,5 @@
 import React from "react";
-import List from "../../components/List";
+import { List } from "../../components";
 
 const diplomas = [
   ["Business Diploma", "2005-2010"],

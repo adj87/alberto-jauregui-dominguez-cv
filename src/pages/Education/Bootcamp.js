@@ -1,5 +1,5 @@
 import React from "react";
-import List from "../../components/List";
+import { Title2, List } from "../../components";
 
 const assignatures = [
   "Git, GitHub & SourceTree",
@@ -25,9 +25,7 @@ const assignatures = [
 const Bootcamp = () => {
   return (
     <div className="w-full row-span-2">
-      <p className="mt-4 md:text-3xl text-2xl bold tracking-tighter">
-        KeepCoding Web Startup Engineering Bootcamp
-      </p>
+      <Title2 text="KeepCoding Web Startup Engineering Bootcamp" />
 
       <List options={assignatures} />
     </div>

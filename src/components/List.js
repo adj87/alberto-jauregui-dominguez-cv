@@ -1,6 +1,6 @@
 import React from "react";
 
-const List = ({ options, render, noJustify }) => {
+export const List = ({ options, render, noJustify }) => {
   const classLi = `my-3 text-lg ${!noJustify && "text-justify"} text-gray-400`;
   return (
     <ul className="list-disc list-inside mt-8 md:mt-14 md:ml-4">
@@ -16,5 +16,3 @@ const List = ({ options, render, noJustify }) => {
     </ul>
   );
 };
-
-export default List;

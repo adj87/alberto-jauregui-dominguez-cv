@@ -1,4 +1,4 @@
-import List from "../../components/List";
+import { List } from "../../components";
 
 const Layout = (props) => {
   const { company, rol, date, paragraphs } = props;

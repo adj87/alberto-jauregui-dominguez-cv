@@ -3,23 +3,29 @@ import { Github, Linkedin } from "../../icons";
 
 const links = [
   {
-    component: () => <Github color="#001a7a" size={"35px"} />,
+    component: () => <Github color="#dbeafe" size={"35px"} />,
     href: "https://github.com/adj87"
   },
   {
-    component: () => <Linkedin color="#001a7a" size={"35px"} />,
+    component: () => <Linkedin color="#dbeafe" size={"35px"} />,
     href: "https://www.linkedin.com/in/alberto-jauregui-dominguez/"
   }
 ];
 
 export const Bottom = () => {
   return (
-    <div className="md:max-w-screen-xs flex justify-around m-auto py-16">
-      {links.map(({ component: Component, href }) => (
-        <a href={href} className="hover:scale-110">
-          <Component />
-        </a>
-      ))}
+    <div className="flex flex-col w-full my-8 ">
+      <div className="md:max-w-screen-xs  w-full flex justify-around m-auto pb-4 pt-20">
+        {links.map(({ component: Component, href }) => (
+          <a href={href} className="hover:scale-110">
+            <Component />
+          </a>
+        ))}
+      </div>
+      <p className="text-center text-lg text-blue-100 bold">mr_jaurewi</p>
+      <p className="text-center text-gray-400 text-blue-100">
+        {new Date().getFullYear()}
+      </p>
     </div>
   );
 };
