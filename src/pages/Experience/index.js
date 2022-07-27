@@ -7,9 +7,9 @@ import Freelance from "./Freelance";
 
 export const Experience = () => {
   return (
-    <Layout>
+    <Layout size="lg">
       <Title text={"Experience"} className="pink-gradient" />
-      <section className="flex w-full overflow-auto snap-x snap-mandatory">
+      <section className="flex w-full grid md:grid-cols-2 gap-6">
         <Wellness />
         <Fujitsu />
         <Freelance />
