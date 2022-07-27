@@ -1,5 +1,5 @@
 import React from "react";
-import { List } from "../../components";
+import { List, Title2 } from "../../components";
 
 const courses = [
   [
@@ -25,9 +25,7 @@ const courses = [
 const Courses = () => {
   return (
     <div className="w-full">
-      <p className="mt-4 md:text-3xl text-2xl bold tracking-tighter">
-        Online Courses
-      </p>
+      <Title2 text="Online Courses" />
 
       <List options={courses} />
     </div>

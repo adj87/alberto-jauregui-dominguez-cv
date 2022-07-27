@@ -1,7 +1,7 @@
 import React from "react";
 
 export const List = ({ options, render, noJustify }) => {
-  const classLi = `my-3 text-lg ${!noJustify && "text-justify"} text-gray-400`;
+  const classLi = `my-3 text-lg ${!noJustify && "text-justify"} text-gray-500`;
   return (
     <ul className="list-disc list-inside mt-8 md:mt-14 md:ml-4">
       {options.map((opt) => {
