@@ -9,6 +9,11 @@ const paragraphs = [
   "Use of dockers to deploy API RESTS"
 ];
 
+const dates = [
+  [2, 2019],
+  [8, 2021]
+];
+
 const techs = [
   "React",
   "Redux",
@@ -24,7 +29,7 @@ const Fujitsu = () => {
     <Layout
       company="Fujitsu"
       paragraphs={paragraphs}
-      date={"feb-19 aug-21"}
+      date={dates}
       rol={"Full Stack Web Developer"}
       techs={techs}
     />

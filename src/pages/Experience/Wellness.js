@@ -20,12 +20,17 @@ const techs = [
   "Jest"
 ];
 
+const dates = [
+  [9, 2021],
+  [6, 2021]
+];
+
 const Wellness = () => {
   return (
     <Layout
       company="Wellness Techgroup"
       paragraphs={paragraphs}
-      date={"feb-19 aug-21"}
+      date={dates}
       rol={"Full Stack Web Developer"}
       techs={techs}
     />
