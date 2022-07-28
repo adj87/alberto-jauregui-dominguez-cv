@@ -20,10 +20,7 @@ const techs = [
   "PHP"
 ];
 
-const dates = [
-  [6, 2016],
-  [11, 2025]
-];
+const dates = [[6, 2016]];
 
 const Freelance = () => {
   return (

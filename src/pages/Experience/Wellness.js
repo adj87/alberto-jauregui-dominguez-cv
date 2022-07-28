@@ -20,10 +20,7 @@ const techs = [
   "Jest"
 ];
 
-const dates = [
-  [9, 2021],
-  [6, 2021]
-];
+const dates = [[9, 2021]];
 
 const Wellness = () => {
   return (

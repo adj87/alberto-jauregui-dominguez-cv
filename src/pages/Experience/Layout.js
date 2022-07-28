@@ -18,11 +18,11 @@ const months = [
 const Layout = (props) => {
   const { company, rol, date, paragraphs, techs } = props;
 
-  const sDateIns = new Date(date[0][1], date[0][0] - 1);
-  const eDateIns = new Date(date[1][1], date[1][0] - 1);
+  const sDateIns = date[0] && new Date(date[0][1], date[0][0] - 1);
+  const eDateIns = date[1] && new Date(date[1][1], date[1][0] - 1);
 
   const dateToString = (date) =>
-    `${months[date.getMonth()]}/${date.getYear() - 100}`;
+    date && `${months[date.getMonth()]}/${date.getYear() - 100}`;
 
   return (
     <section className="w-full shrink-0 snap-center">
@@ -30,9 +30,23 @@ const Layout = (props) => {
 
       <div className="flex items-center justify-between mt-4 ml-2">
         <h2 className="text-xl md:text-2xl tracking-tighter">{rol}</h2>
-        <span className="md:text-lg text-sm text-blue-100">
-          {`${dateToString(sDateIns)} - ${dateToString(eDateIns)}`}
-        </span>
+        <div className="flex items-center">
+          <span className="md:text-lg text-sm text-blue-100">
+            {`${dateToString(sDateIns)}`}
+          </span>
+          <span className="md:text-lg text-sm text-blue-100 mx-2"> - </span>
+
+          {eDateIns ? (
+            <span className="md:text-lg text-sm text-blue-100">
+              {`${dateToString(eDateIns)}`}
+            </span>
+          ) : (
+            <span class="flex h-3 w-3">
+              <span class="animate-ping absolute inline-flex h-3 w-3 w-full rounded-full bg-sky-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+            </span>
+          )}
+        </div>
       </div>
       <List options={paragraphs} />
       <div className="mt-4 flex justify-end flex-wrap">
