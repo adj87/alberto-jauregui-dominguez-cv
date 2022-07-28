@@ -22,7 +22,14 @@
 body {
   font-family: "Inter Regular";
   color: white;
-  @apply bg-main-bg;
+
+  background: rgb(0, 47, 80);
+  background: radial-gradient(
+    circle,
+    rgb(0, 36, 61) 0%,
+    rgba(0, 8, 37, 1) 27%,
+    rgba(0, 8, 37, 1) 100%
+  );
 }
 
 .main-bg {
