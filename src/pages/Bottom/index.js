@@ -14,7 +14,7 @@ const links = [
 
 export const Bottom = () => {
   return (
-    <div className="flex flex-col w-full my-8 ">
+    <footer className="flex flex-col w-full my-8 ">
       <div className="md:max-w-screen-xs  w-full flex justify-around m-auto pb-4 pt-20">
         {links.map(({ component: Component, href }) => (
           <a href={href} className="hover:scale-110">
@@ -26,6 +26,26 @@ export const Bottom = () => {
       <p className="text-center text-gray-400 text-blue-100">
         {new Date().getFullYear()}
       </p>
-    </div>
+      <p className="text-center text-gray-500 mt-4">
+        Made with{" "}
+        <a
+          href="https://reactjs.org/"
+          className="text-blue-200 hover:text-blue-400 transition"
+          target="_blank"
+          rel="noreferrer"
+        >
+          React
+        </a>
+        <span>{" and "}</span>
+        <a
+          href="https://tailwindcss.com/"
+          className="text-blue-200 hover:text-blue-400 transition"
+          target="_blank"
+          rel="noreferrer"
+        >
+          TaildwindCSS
+        </a>
+      </p>
+    </footer>
   );
 };
