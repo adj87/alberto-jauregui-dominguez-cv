@@ -7,12 +7,12 @@ const Layout = ({ children, size }) => {
     externalRef,
     distance: "10px",
     once: false,
-    threshold: 0.4
+    threshold: 0.2
   });
 
   const className = isNearScreen ? "opacity-1" : "opacity-20";
   const sizeClassName =
-    size === "lg" ? "md:max-w-screen-lg" : "md:max-w-screen-md";
+    size === "lg" ? "md:max-w-screen-xl" : "md:max-w-screen-md";
   return (
     <div
       className={`${sizeClassName} px-6 md:px-8 m-auto mt-12 transition duration-1000  ${className}`}

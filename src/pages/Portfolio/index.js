@@ -1,3 +1,4 @@
+import { Tag } from "../../components";
 import Title from "../../components/Title";
 import { imgPrefix } from "../../utils";
 import Layout from "../Layout";
@@ -52,9 +53,7 @@ export const Portfolio = () => {
             </a>
             <div className="flex justify-end mt-4 ml-4 flex-wrap">
               {pr.technologies.map((tech) => (
-                <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 mt-2 cursor-default">
-                  {`#${tech}`}
-                </span>
+                <Tag text={tech} />
               ))}
             </div>
           </div>

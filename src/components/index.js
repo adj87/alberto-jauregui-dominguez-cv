@@ -6,3 +6,4 @@ export * from "./Role";
 export * from "./Title";
 export * from "./Title2";
 export * from "./Topbar";
+export * from "./Tag";
