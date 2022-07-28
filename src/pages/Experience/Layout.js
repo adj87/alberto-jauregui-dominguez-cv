@@ -1,7 +1,7 @@
-import { List, Title2 } from "../../components";
+import { List, Tag, Title2 } from "../../components";
 
 const Layout = (props) => {
-  const { company, rol, date, paragraphs } = props;
+  const { company, rol, date, paragraphs, techs } = props;
   return (
     <section className="w-full shrink-0 snap-center">
       <Title2 text={company} />
@@ -11,6 +11,11 @@ const Layout = (props) => {
         <span className="md:text-lg text-sm">{date}</span>
       </div>
       <List options={paragraphs} />
+      <div className="mt-4 flex justify-end flex-wrap">
+        {techs?.map((opt) => (
+          <Tag text={opt} />
+        ))}
+      </div>
     </section>
   );
 };

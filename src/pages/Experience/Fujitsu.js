@@ -9,6 +9,16 @@ const paragraphs = [
   "Use of dockers to deploy API RESTS"
 ];
 
+const techs = [
+  "React",
+  "Redux",
+  "MaterialUI",
+  "Java",
+  "Springboot",
+  "vanillaJS",
+  "jQuery"
+];
+
 const Fujitsu = () => {
   return (
     <Layout
@@ -16,6 +26,7 @@ const Fujitsu = () => {
       paragraphs={paragraphs}
       date={"feb-19 aug-21"}
       rol={"Full Stack Web Developer"}
+      techs={techs}
     />
   );
 };

@@ -8,6 +8,18 @@ const paragraphs = [
   "Development of a website application for football trainners and technical stuff. It enables you to create trainning footballs session  by selecting football trainning football exercises from a very large and extensive library of exercises"
 ];
 
+const techs = [
+  "React",
+  "vanillaJS",
+  "jQuery",
+  "Taildwind",
+  "Bootstrap",
+  "nodeJS",
+  "KeystoneJS",
+  "graphQL",
+  "PHP"
+];
+
 const Freelance = () => {
   return (
     <Layout
@@ -15,6 +27,7 @@ const Freelance = () => {
       paragraphs={paragraphs}
       date={"feb-19 aug-21"}
       rol={"Full Stack Web Developer"}
+      techs={techs}
     />
   );
 };

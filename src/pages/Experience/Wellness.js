@@ -9,6 +9,17 @@ const paragraphs = [
   "Use of dockers to deploy every microservices, gateway and frontend application"
 ];
 
+const techs = [
+  "React",
+  "ApolloClient",
+  "GraphQL",
+  "AntD",
+  "NodeJS",
+  "Express",
+  "Docker",
+  "Jest"
+];
+
 const Wellness = () => {
   return (
     <Layout
@@ -16,6 +27,7 @@ const Wellness = () => {
       paragraphs={paragraphs}
       date={"feb-19 aug-21"}
       rol={"Full Stack Web Developer"}
+      techs={techs}
     />
   );
 };
