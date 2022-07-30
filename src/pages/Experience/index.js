@@ -9,7 +9,7 @@ export const Experience = () => {
   return (
     <Layout size="lg">
       <Title text={"Experience"} className="pink-gradient" />
-      <section className="flex w-full grid md:grid-cols-2 gap-6">
+      <section className="flex w-full grid lg:grid-cols-2 gap-6">
         <Wellness />
         <Fujitsu />
         <Freelance />

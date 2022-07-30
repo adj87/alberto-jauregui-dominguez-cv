@@ -1,4 +1,4 @@
-import { Tag } from "../../components";
+import { Tag, Title2 } from "../../components";
 import Title from "../../components/Title";
 import { imgPrefix } from "../../utils";
 import Layout from "../Layout";
@@ -35,10 +35,13 @@ export const Portfolio = () => {
     <Layout size="lg">
       <Title text={"Portfolio"} className="green-gradient" />
       <h2 className="text-gray-400 text-xl mt-4">Some of my portfolio...</h2>
-      <div className="grid grid-cols md:grid-cols-3 gap-x-4 gap-y-8 my-8">
+      <div className="grid grid-cols lg:grid-cols-3 md:grid-cols-2 gap-x-4 gap-y-24 my-8">
         {projects.map((pr) => (
           <div>
-            <p className="mb-8 text-md">{pr.name}</p>
+            <h2 className="text-xl tracking-tighter mb-4 text-blue-100">
+              {pr.name}
+            </h2>
+
             <a
               href={pr.href}
               target="_blank"
