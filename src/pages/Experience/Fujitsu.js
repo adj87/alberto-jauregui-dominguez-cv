@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 
 const paragraphs = [
-  "Development of react applications using redux for managing application states and duck as modular pattern. Advance use of ES6 syntax.",
+  "Development of react applications using redux for managing application states and duck as modular pattern.",
   "Development of API REST with SpringBoot with JAVA.",
   "Development of react-native applications using apolloclient as manager state",
   "Maintenance of old frontend applications with jQuery and vanillaJS",

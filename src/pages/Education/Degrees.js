@@ -16,8 +16,8 @@ const Degrees = () => {
         options={diplomas}
         render={(el) => (
           <>
-            <span className="text-gray-500 ">{el[0]}</span>
-            <span className="text-gray-600 ml-4">{el[1]}</span>
+            <span className="text-main-color ">{el[0]}</span>
+            <span className="text-gray-300 ml-4">{el[1]}</span>
           </>
         )}
       />

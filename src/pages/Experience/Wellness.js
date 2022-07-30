@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 
 const paragraphs = [
-  "Development of Frontend applications using React, Typescript, Ant design, and Apollo-GraphQL for managing application states.",
+  "Development of Frontend applications using React, Typescript, Ant design, and Apollo-Client for managing application states.",
   "Use of Webpack Module Federation for creating a Microfrontends environment",
   "Development of a ApolloServer as a gateway using NodeJS, Express and typescript",
   "Development of multiples microservers using NodeJS with express framework and mongoDB",

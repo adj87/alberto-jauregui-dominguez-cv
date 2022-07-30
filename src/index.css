@@ -44,6 +44,10 @@ body {
   font-family: "Inter Bold";
 }
 
+.text-main-color {
+  color: #a4b5da;
+}
+
 .blue-gradient {
   background-image: linear-gradient(
     rgb(94, 162, 239) 25%,

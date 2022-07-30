@@ -5,25 +5,25 @@ import Layout from "../Layout";
 
 const projects = [
   {
-    name: "Technical Assignment Bequest",
+    name: "Technical Assignment for Bequest",
     href: "https://adj87.github.io/bequest-technical-test/",
     src: "bequest.png",
     technologies: ["React", "Typescript", "Taildwindcss", "Formik"]
   },
   {
-    name: "Technical Assignment Wellness",
+    name: "Technical Assignment for Wellness",
     href: "https://kwhapp-front.herokuapp.com/",
     src: "kwhapp.png",
     technologies: ["React", "Styled Components"]
   },
   {
-    name: "Technical Assignment ATSistemas",
+    name: "Technical Assignment for ATSistemas",
     href: "https://adj87.github.io/movie-library/",
     src: "at-sistemas.png",
     technologies: ["React", "Typescript", "NodeJS", "Express"]
   },
   {
-    name: "Technical Assignment X",
+    name: "Technical Assignment for X",
     href: "https://adj87.github.io/simple-crud/",
     src: "2.png",
     technologies: ["React", "Redux", "Formik"]
