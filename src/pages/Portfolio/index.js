@@ -6,24 +6,28 @@ import Layout from "../Layout";
 const projects = [
   {
     name: "Technical Assignment for Bequest",
+    description: "Address selector",
     href: "https://adj87.github.io/bequest-technical-test/",
     src: "bequest.png",
     technologies: ["React", "Typescript", "Taildwindcss", "Formik"]
   },
   {
     name: "Technical Assignment for Wellness",
+    description: "Crud with backend in NODEJS with express",
     href: "https://kwhapp-front.herokuapp.com/",
     src: "kwhapp.png",
     technologies: ["React", "Styled Components"]
   },
   {
     name: "Technical Assignment for ATSistemas",
+    description: "Movie library",
     href: "https://adj87.github.io/movie-library/",
     src: "at-sistemas.png",
     technologies: ["React", "Typescript", "NodeJS", "Express"]
   },
   {
     name: "Technical Assignment for X",
+    description: "Simple crud using an external API, https://reqres.in/api",
     href: "https://adj87.github.io/simple-crud/",
     src: "2.png",
     technologies: ["React", "Redux", "Formik"]
@@ -41,6 +45,9 @@ export const Portfolio = () => {
             <h2 className="text-xl tracking-tighter mb-4 text-blue-100">
               {pr.name}
             </h2>
+            <p className="text-gray-400 tracking-tighter mb-4 text-blue-100">
+              {pr.description}
+            </p>
 
             <a
               href={pr.href}
